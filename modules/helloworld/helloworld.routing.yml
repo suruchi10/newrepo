@@ -1,0 +1,9 @@
+helloworld.content:
+  path: '/helloworld'
+  defaults:
+    _title: 'Hello World'
+    _controller: '\Drupal\helloworld\Controller\HelloWorldController::test'
+  requirements:
+    _permission: 'access content'
+
+ 
