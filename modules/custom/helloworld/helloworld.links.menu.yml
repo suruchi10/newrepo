@@ -1,0 +1,6 @@
+helloworld.admin:
+  title: 'Hello module menu'
+  description: 'example for menu navigation'
+  route_name: helloworld.content
+  weight: 100
+  menu_name: main
