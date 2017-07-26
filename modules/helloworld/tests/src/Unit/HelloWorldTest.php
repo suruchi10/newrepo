@@ -34,6 +34,10 @@ use Drupal\Tests\UnitTestCase;
     // Confirm that 20C=68F
     $this->assertEquals(68, $this->conversionService->celsiusToFahrenheit(20));
   }
+  public function testFourConversion() {
+    // Confirm that 20C=68F(fails)
+    $this->assertEquals(68, $this->conversionService->celsiusToFahrenheit(40));
+  }
  
 
  
